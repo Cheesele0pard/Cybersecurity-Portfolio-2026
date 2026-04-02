@@ -1,5 +1,10 @@
 # Part 1 Evidence
 
+### Declaration of Translation and Authenticity
+Several evidentiary screenshots included in this portfolio capture real-world cybersecurity interactions conducted in my native language (Chinese). 
+
+To ensure full accessibility for the marking process, all accompanying English explanations, technical analyses, and contextual descriptions related to these images have been translated and verified with the assistance of Google Translate.
+
 ## A1. Discover security concepts used on campus：
 1.Access Control Card Readers：Places requiring you to swipe your student ID
 ![2f9dce73c35cfbb930ba478c67c83d03](https://github.com/user-attachments/assets/4f262e9b-45c3-49f1-a7b7-76ff526b4a4b)
@@ -335,6 +340,32 @@ To exploit this, I injected a malicious payload: `<img src=x onerror=alert('XSS_
 **Security Analysis & Threat Implications:**
 This implementation perfectly illustrates the danger of **Improper Input Neutralization** (CWE-79). If this were a live production environment, an attacker could replace the `alert()` function with a script designed to steal session cookies, hijack the user's session, or silently redirect them to a phishing site. This severely compromises the **Integrity** and **Confidentiality** of the application. It underscores the critical necessity of treating all user input as untrusted and applying strict context-aware output encoding.
 
+
 ## A28. Implement a security solution of your choice and put it on your GitHub
 
+**Project Repository Link:** https://github.com/Cheesele0pard/security-tools
 
+<img width="936" height="1811" alt="image" src="https://github.com/user-attachments/assets/d2f5f4e9-928c-41e7-bd4f-0866c8055b6c" />
+
+**Evidence & Explanation:**
+For this task, I designed and implemented a **Password Strength Analyzer** in Python. Instead of keeping it in the main portfolio, I have created a dedicated, standalone GitHub repository for this security tool (linked above) to adhere to standard software engineering practices. The screenshot demonstrates the tool evaluating both non-compliant and compliant passwords.
+
+**Technical Implementation:**
+The security solution utilizes Python's built-in regular expression library (`re`) to enforce standard password complexity policies. It evaluates the string against five critical criteria: minimum length (8+ chars), uppercase presence, lowercase presence, numeric digits, and special characters. Instead of simply rejecting a bad password, the algorithm provides actionable, itemized feedback to guide the user toward secure credential generation.
+
+**Security Analysis & Threat Implications:**
+This tool acts as a proactive defense mechanism against **Weak Authentication** (CWE-521). By enforcing rigorous password complexity at the point of creation, this solution mitigates the risk of automated attacks, specifically **Brute Force** and **Dictionary Attacks**. Ensuring users select high-entropy passwords is a fundamental access control measure that directly protects the **Confidentiality** of user accounts and prevents unauthorized lateral movement within a system.
+
+
+## A29. Find a publicly available AI-generated media and use a detection tool to analyze it
+
+<img width="2142" height="1478" alt="image" src="https://github.com/user-attachments/assets/7da5d16b-abcf-4f01-891b-eb0336bd20bf" />
+
+**Evidence & Explanation:**
+To fulfill this requirement, I sourced a widely circulated, publicly available AI-generated image (the infamous "Balenciaga Pope" created via Midjourney). I analyzed this media using **Hive Moderation's AI-Generated Content Detection tool**, a specialized machine learning classifier designed to identify synthetic media. 
+
+**Technical Analysis & Output:**
+As shown in the evidence, the verification tool successfully flagged the image, calculating a **99.9% confidence score** that the media is AI-generated. The classifier specifically identified the generative model engine (e.g., Midjourney) by detecting pixel-level anomalies, noise patterns, and structural artifacts (such as unnatural rendering of hands, fabric textures, and lighting physics) that are invisible to the naked human eye but distinct in diffusion models.
+
+**Security Analysis & Threat Implications:**
+This exercise highlights the growing cybersecurity threat of **Deepfakes and Synthetic Media**. In the context of Social Engineering and Open-Source Intelligence (OSINT), hyper-realistic AI generation can be weaponized for **Disinformation campaigns, Identity Theft, and Phishing**. It demonstrates that relying on human visual verification is no longer sufficient. Security professionals must integrate cryptographic verification (like C2PA standard/watermarking) and algorithmic detection tools to verify media **Authenticity and Integrity** in the digital ecosystem.
