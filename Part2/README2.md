@@ -2,7 +2,6 @@
 
 ## B1. Discover 5 unique weak/vulnerable security implementations.
 
-
 <img width="1656" height="672" alt="B1（1）" src="https://github.com/user-attachments/assets/e9be494b-db35-4c6b-b8c5-56ec2aa9cc72" />
 the login page for the TP-Link router's management console (hosted at the local IP address 192.168.1.1) is accessed via the unencrypted HTTP protocol. The web browser explicitly flags the connection as "Not secure"
 
@@ -15,8 +14,10 @@ The registration form allowing the creation of an account with a highly common p
 <img width="1878" height="489" alt="B1(4)" src="https://github.com/user-attachments/assets/3db375c4-d742-4812-bbe5-77d685d81983" />
 As demonstrated in the screenshot, the authentication system permits repeated, consecutive login attempts with incorrect passwords without triggering any defensive mechanisms.
 
-## B2. Discover 5 unique strong security implementations.
+<img width="5712" height="3213" alt="B1(5)" src="https://github.com/user-attachments/assets/c757e3f1-b5df-4f7d-bc7d-413a2c01f4fa" />
+open public or employee shelving unit without any doors or locks, containing unattended backpacks and personal items left inside casually.
 
+## B2. Discover 5 unique strong security implementations.
 
 <img width="900" height="1176" alt="B2(1)" src="https://github.com/user-attachments/assets/4f1701b0-029e-4532-ad89-d2fe97f22a0c" />
 Nintendo Account login interface prompting the user to authenticate using a biometric passkey.the system allows the user to log in using device-bound biometric verification。
@@ -53,7 +54,19 @@ Lab3
 <img width="1320" height="1747" alt="B4(3)" src="https://github.com/user-attachments/assets/1aecf579-f4eb-4bfc-bbf9-d222f43d9b41" />
 Lab1
 
-## B9. Participate in an industry-related cybersecurity event.
+# B5. Attend 2 cybersecurity related talks/seminars.
+<img width="2268" height="4032" alt="B5(1)" src="https://github.com/user-attachments/assets/4016a258-c99b-417b-b214-664186464b0d" />
+The first is about AI defensive cybersecurity.
 
+# B7. Participate in CS/DS/cybersecurity clubs’ activity
+<img width="1080" height="1350" alt="B7" src="https://github.com/user-attachments/assets/1bf2bc85-4a13-473b-a27e-4118f79248dc" />
+
+# B9. Participate in an industry-related cybersecurity event.
 <img width="4032" height="2268" alt="B9" src="https://github.com/user-attachments/assets/be6bd2a4-1484-418b-a0c3-c62875eda096" />
 Lecture Title:Fraud Detection in the Real World — From Cybersecurity to the Banking Sector
+
+# B10. Participate in a cybersecurity activity as part of job/internship/volunteering etc.
+<img width="1236" height="1661" alt="B10" src="https://github.com/user-attachments/assets/2a851539-28f6-4dfa-98cf-59e0576eb672" />
+As part of a cybersecurity volunteering project for my CITS2006 unit, I conducted a security audit for a local business, Johnny's Burgers. I performed a vulnerability assessment and identified critical risks, including outdated backend infrastructure and information disclosure.
+
+
